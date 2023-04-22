@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link rel="stylesheet" href="../css/style_01.css">
+</head>
+<body>
+<div class="card">
+    <div class="weatherbody">
+        <div class="search-bar">
+                <input type="text" name="" id="inputbar" value="" placeholder="City Name">
+               <button><img src="../images/search.png"alt="" id="searchbtn"></button>
+        </div>
+
+        <!-- 404 error throwing -->
+
+        <div class="Error">
+            <h1>Sorry, Location not found!</h1>
+             <img src="/images/404.png" alt="404 Error">  
+        </div>
+
+        <div class="weather">
+            <img src="../images/clouds.png" class="weathericon01" srcset="" >
+           <h1 class="temp">0°c</h1>
+           <h3 class="discription">weather</h3>
+           <h2 class="city">city</h2>
+        </div>
+
+        <div class="details">
+            <div class="col">
+                <img src="../images/humidity.png" class="weathericon">
+                <div class="meter">
+                    <div class="Humidity">0%</div>
+                    <p>humidity</p>
+                </div>
+            </div>
+            <div class="col">
+                <img src="../images/wind.png" alt="" class="weathericon">
+                <div class="meter">
+                    <div class="wind">0km/hr</div>
+                    <p>Wind</p>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <script src="../JavaScript/weather.js">
+
+    </script>
+</body>
+</html>
